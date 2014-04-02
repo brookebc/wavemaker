@@ -1,0 +1,117 @@
+container {
+
+}
+
+body {
+	margin: 25px;
+	padding: 25px 25px 25px 25px;
+	font-family: 'Fjalla One';
+	font-size: 25px;
+	color: #414142;
+	background-color: #80C0C0;
+}
+
+body * {
+	vertical-align: top;
+}
+
+blockquote {
+	/*margin: 40px;*/
+	/*font-family: 'Handlee', cursive;*/
+	padding: 10px 20px 10px 20px;
+	font-size: 25px;
+	color: #E0FFFF;
+	background-color: #00D7FF;
+}
+
+.h1, .h2, .h3 {
+	font-family: 'Fjalla One', helvetica, sans-serif;
+	font-size: 35px;
+	color: black;}
+
+p {
+	padding: 30px 20px 0px 20px;
+	background-color: inherit;
+}
+
+p::first-letter {
+  font-weight: bold;
+  color: red;
+}
+
+.strong {
+	color: green;
+}
+
+header {
+	background-image: url('images/surfing-bw.jpg');
+	width: 100%;
+	min-height: 400px;
+	background-repeat: no-repeat;
+	/*background-color: #bababa;*/
+	color: #191970;
+	padding: 25px 0px 25px 0px; 
+	text-align: center;
+}
+
+ul.nav {*/
+	/*background: inherit; */
+	font-weight: bold;
+	padding:6px 10px; 
+}
+
+footer {
+	/*clear: both;*/
+	background-color: #bababa;
+	text-align: center;
+	padding: 15px 0px 5px 0px;
+	min-height: 50px
+}
+
+img {
+	position:center;
+	margin: 20px; 
+}
+
+section {
+	/*display: block;*/
+	background-color: white;
+	margin-left: 10px auto;
+	padding: 25px auto;
+}
+
+.column-content {
+	display: inline-block;
+	width: 65%;
+	background-color: inherit;
+}
+
+.column-sidebar {
+	display: inline-block;
+	width: 30%;
+	background-color: inherit;
+}
+
+article {
+	background-color: white;
+	margin: 20px 0px 20px 0px;
+}
+
+.column-third {
+	width: 30%;
+}
+
+.column-half {
+	display: inline-block;
+	width: 48%;
+	margin: 0px 10px;
+}
+
+.footer-nav {
+	list-style-type: none;
+	height: 100px;
+}
+
+footer > ul > li {
+	display: inline-block;
+}
